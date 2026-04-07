@@ -27,13 +27,13 @@
 # else:
 #     print(numero)
 
-#EX4
+# EX4
 
-# letra = input("Digite uma letra: ")
-# if letra == "A" or letra == "a" or letra == "e" or letra == "E" or letra == "i" or letra == "I" or letra == "o" or letra == "O" or letra == "u" or letra == "U":
-#     print("É uma vogal")
-# else:
-#     print("É uma consoante")
+letra = input("Digite uma letra: ").lower()
+if letra == "a" or letra == "e" or letra == "i" or letra == "o" or letra == "u":
+    print("É uma vogal")
+else:
+    print("É uma consoante")
 
 # #EXERCÍCIO 5
 # # num = int(input('digite um numero: '))
